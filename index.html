@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center my-5">
+        <div class="col-sm-5">
+            <div class="card">
+                <div class="card-header">
+                    Kullanıcı Oluştur
+                </div>
+                <div class="card-body">
+                    <form id="form" novalidate><!-- emailde hata falan cıkmaması için  -->
+                        <div class="form-group">
+                        <label for="username">Kullanıcı adı</label>
+                        <input type="text" class="form-control" name="" placeholder="Kullanıcı adı girin" id="username">
+                        <div></div>
+                        </div>
+                        <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" name="" placeholder="Email adresinizi girin" id="email">
+                        <div></div>
+                        </div>
+                        <div class="form-group">
+                        <label for="password">Parola</label>
+                        <input type="password" class="form-control" name="" placeholder="Parolanızı girin" id="password">
+                        <div></div>
+                        </div>
+                        <div class="form-group">
+                        <label for="repassword">Parola(doğrulama)</label>
+                        <input type="password" class="form-control" name="" placeholder="Parolanızı tekrar girin" id="repassword">
+                        <div></div>
+                        </div>
+                        <button class="btn btn-primary btn-block" type="submit">Kayıt ol</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
